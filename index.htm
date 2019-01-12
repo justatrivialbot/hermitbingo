@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HermitCraft Episode Bingo!</title>
+		<link rel="stylesheet" href="index.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Play Bingo while watching Hermitcraft episodes">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="bingo.js"></script>
+	</head>
+	<body>
+	<h1>Hermitcraft S6 Episode Bingo</h1>
+	<p>Now you can play bingo while you watch your favorite hermits' videos!<br>Open a card when you press play on the video.
+	<br>Try to get a BINGO (completed row, column, diagonal, or 4 corners) from things that happen in that one video. <br>You can click on
+	a square to "dab" it as complete.</p>
+		<p>Choose your Dabber Face: 
+			<select name="face" id="faceselect">
+				<option value="bdubs">Bdubs</option>
+				<option value="biffa">Biffa</option>
+				<option value="cubfan">Cubfan</option>
+				<option value="doc">Doc</option>
+				<option value="etho">Etho</option>
+				<option value="false">False</option>
+				<option value="grian" selected>Grian</option>
+				<option value="hypno">Hypno</option>
+				<option value="impulse">Impulse</option>
+				<option value="iskall">Iskall</option>
+				<option value="jessassin">Jessassin</option>
+				<option value="jevin">Jevin</option>
+				<option value="joehills">JoeHills</option>
+				<option value="mumbo">Mumbo</option>
+				<option value="python">Python</option>
+				<option value="rendog">Rendog</option>
+				<option value="scar">Scar</option>
+				<option value="stress">Stress</option>
+				<option value="tango">Tango</option>
+				<option value="tfc">TFC</option>
+				<option value="wels">Wels</option>
+				<option value="xbcrafted">xBCrafted</option>
+				<option value="xisuma">Xisuma</option>
+				<option value="zedaph">Zedaph</option>
+				<option value="zombiecleo">ZombieCleo</option>
+			</select>
+			<span id="dabsample"> </span>
+		</p>
+		
+		
+		<div id="bingoboard">
+			<div class='crow'>
+				<div class='chead'><span>B</span></div>
+				<div class="chead"><span>I</span></div>
+				<div class="chead"><span>N</span></div>
+				<div class="chead"><span>G</span></div>
+				<div class="chead"><span>O</span></div>
+			</div>
+			
+			<div class="crow">
+			<div class='first cell' id="c1"><span></span></div>
+			<div class="cell" id="c2"><span></span></div>
+			<div class="cell" id="c3"><span></span></div>
+			<div class="cell" id="c4"><span></span></div>
+			<div class="cell" id="c5"><span></span></div>
+			</div>
+			<div class="crow">
+			<div class='first cell' id="c6"><span></span></div>
+			<div class="cell" id="c7"><span></span></div>
+			<div class="cell" id="c8"><span></span></div>
+			<div class="cell" id="c9"><span></span></div>
+			<div class="cell" id="c10"><span></span></div>
+			</div>
+			
+			<div class="crow">
+			<div class='first cell' id="c11"><span></span></div>
+			<div class="cell" id="c12"><span></span></div>
+			<div class="cell" id="c13"><span>F5 Babbling<br>(FREE SPACE)</span></div>
+			<div class="cell" id="c14"><span></span></div>
+			<div class="cell" id="c15"><span></span></div>
+			</div>
+			
+			<div class="crow">
+			<div class='first cell' id="c16"><span></span></div>
+			<div class="cell" id="c17"><span></span></div>
+			<div class="cell" id="c18"><span></span></div>
+			<div class="cell" id="c19"><span></span></div>
+			<div class="cell" id="c20"><span></span></div>
+			</div>
+			
+			<div class="crow">
+			<div class='first cell' id="c21"><span></span></div>
+			<div class="cell" id="c22"><span></span></div>
+			<div class="cell" id="c23"><span></span></div>
+			<div class="cell" id="c24"><span></span></div>
+			<div class="cell" id="c25"><span></span></div>
+			</div>
+		</div>
+		
+		<p class="notes"><strong>Notes:</strong></p>
+		<ul class="notes">
+			<li>The columns are roughly themed with major buildings thrown in.</li>
+			<li>Themes are: Words, Youtube, Professional Mincerafting, SMP Shenanigans & Mobs, Numbers & Nerdy Stuff</li>
+			<li>The center space is a free space. Even if they never use F5 mode in the video.</li>
+			<li>A "side torch" is one that is placed on the side of a block instead of on the ground</li>
+			<li>Sl1pg8r lingo includes "stuff and things", "thingydoodler," "nailed it," "squirt," and the occasional "what is up, the werld."</li>
+			<li><a href="https://en.wikipedia.org/wiki/Pareidolia">Pareidolia</a> is a psychological phenomenon in which the mind responds to a stimulus, usually an image or sound, by perceiving a 
+			familiar pattern where none exists.</li>
+			<li>Anything in quotes can only be ticked if a Hermit says it out loud.</li>
+			<li>Want to add some options? Message <a href="https://www.reddit.com/user/the_pwd_is_murder/">/u/the_pwd_is_murder</a> on Reddit.</li>
+		</ul>
+		
+	</body>
+</html>

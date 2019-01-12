@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#dabsample {
+	position: absolute;
+	margin-top: -15px;
+	margin-left: 5px;
+	width: 50px;
+	height: 50px;
+	background-size: 50px 50px;
+	background-image: url(img/grian.png);
+}
+
+
+#bingoboard {
+	display:table;
+	width: 760px;
+	min-height: 785px;
+	border: 3px solid black;
+	margin-bottom: 5px;
+}
+
+.crow {
+	display: table-row;
+}
+
+.cell, .chead {
+	display: table-cell;
+	width: 150px;
+	border: 1px solid black;
+	margin: 0 auto;
+	vertical-align: middle;
+	text-align: center;
+	text-shadow: 0px 1px 2px #fff;
+	
+	  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.cell {
+	height: 150px;
+	background-size:150px 150px;
+}
+
+
+.cell span, .chead span {
+	margin: auto;
+	text-align: center;
+	display: block;
+	background-color: white;
+}
+
+.chead {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.notes {
+	clear:both;
+	font-size: .8em;
+	font-style: italic;
+}
+
+.dabbox {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+.dabbed {
+	background: url('img/css_sprites_spaced.png') -0px -0px;
+	background-color: rgba(255,255,255,0.4);
+	background-blend-mode: lighten;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
