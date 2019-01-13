@@ -132,7 +132,10 @@ $(document).ready(function(){
 	
 	$('.cell').click(function() {
 		if ($(this).css('background-image') != 'none') {
-			$(this).css('background-image', 'none');
+			$(this).css({
+				'background-image': 'none',
+				'background-color': 'rgba(255,255,255,0.8)'
+			});
 		} else {
 			var newface = $('#faceselect option:selected').val();
 			newpath = "url('img/" + newface + ".png')";
