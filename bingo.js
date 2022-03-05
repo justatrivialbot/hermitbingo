@@ -10,12 +10,12 @@ $(document).ready(function(){
 
 	var col1 = [
 		'"Small Little"',
-		'"Spoiler"/"Exclusive Preview"',
+		'"Spoiler"/ "Exclusive Preview"',
 		'Sl1pg8r lingo',
 		'[Hermit] went to bed. Sweet Dreams.',
 		'In-Game Chat',
 		'Mimicking Villager Honks',
-		'Namecheck HC Recap/Elybeatmaker',
+		'Namecheck HC Recap or Elybeatmaker',
 		'"Derp" or "Spoon"',
 		'Namecheck a Mojang Employee',
         'Someone Else\'s Base',
@@ -86,7 +86,7 @@ $(document).ready(function(){
 		"\"[Any MC version number]\"",
 		"Bedrock or Build Limit",
 		"Protracted Redstoning",
-		"Namecheck Hivemind/Scicraft/Contraption maker",
+		"Namecheck Hivemind/ Scicraft/ Contraption maker",
 		"Mob Farm",
 		"\"Optifine\"",
 		"\"Lag!\" /  \"#blameMumbo\"",
